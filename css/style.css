@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(../fonts/Poppins-Regular.ttf);
+}
+
+body {
+  font-family: Poppins;
+}
+
+nav {
+  background-color: #fff;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 2px 1px 2px 1px #848484;
+}
+
+header {
+  height: 600px;
+}
+
+.right-menu {
+  margin-left: auto;
+  display: flex;
+  gap: 40px;
+}
+
+.right-menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #1f2937;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.left-menu a {
+  text-decoration: none;
+  padding-left: 15px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #880808;
+}
+
+#logo a {
+  background-color: #0f172a;
+  color: #ffff;
+  padding: 7px 15px 7px 15px;
+  border-radius: 50px;
+  padding-top: 10px;
+}
+
+#landing {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://living-hospital.vercel.app/assets/img/hero-bg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.landing-text {
+  font-size: 25px;
+  line-height: 60px;
+  padding-top: 7%;
+  padding-left: 7%;
+}
+
+.landing-text h1 {
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+}
+
+.landing-text p {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  padding-right: 20px;
+  color: #000;
+}
+
+.get-started {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 35px;
+  margin-top: 30px;
+  margin-left: 7%;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1977cc;
+}
+
+.content {
+  margin-top: -22%;
+  display: flex;
+  padding-left: 7%;
+  gap: 30px;
+}
+
+.content-boxs {
+  display: flex;
+  flex-direction: column;
+  background: #1977cc;
+  color: #fff;
+  text-align: left;
+  width: 250px;
+  height: auto;
+  padding: 40px;
+  border-radius: 3px;
+  gap: 20px;
+}
+
+section {
+  padding: 60px;
+  overflow: hidden;
+  display: block;
+}
+
+.content-boxs h1 {
+  font-weight: 700;
+  font-size: 34px;
+  font-family: "Raleway", sans-serif;
+}
+
+.content-boxs p {
+  font-size: 16px;
+}
+
+.content-boxs a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.2);
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding: 12px 35px;
+  border-radius: 10px;
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.content-boxs a:hover {
+  color: #1977cc;
+  background: #fff;
+}
+
+.icon {
+  display: flex;
+  gap: 20px;
+}
+
+.icon h3 {
+  color: #000;
+  /* padding-top: 40px; */
+  font-size: 20px;
+  font-weight: 700;
+  /* margin: 30px; */
+}
+
+.icon-boxs {
+  background: #fff;
+  padding-top: 40px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  /* margin-bottom: 50px; */
+}
+
+.icon-boxs p {
+  font-size: 15px;
+  color: #848484;
+  padding: 40px 30px;
+}
+
+.space {
+  height: 300px;
+}
+
+.section-tittle {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.section-tittle h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c4964;
+}
+
+.section-tittle h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #1977cc;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-tittle p {
+  text-align: center;
+  padding-left: 7%;
+}
+
+.icon-box {
+  /* margin-top: 10px; */
+  display: flex;
+  gap: 2%;
+  color: #848484;
+  font-size: 20px;
+  line-height: 30px;
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.icon-col {
+  text-align: center;
+  border: 1px solid #d5e1ed;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  margin-bottom: 100px;
+  /* color: #848484; */
+}
+
+.icon-col h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+  color: #000;
+}
+
+.icon-col p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.icon-box :hover {
+  background-color: #1977cc;
+  color: #fff;
+}
+
+.icon-col h4:hover {
+  color: #000;
+}
+
+.heartbeat {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px;
+}
+
+.pillis {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px;
+}
+
+.hospital {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  font-size: 30px;
+  background: #1977cc;
+  color: #fff;
+  border-radius: 5px;
+  transition: all 0.3s ease-out 0s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  box-shadow: 10px 5px;
+}
+
+.copyright {
+  color: #848484;
+  flex-direction: column;
+  padding-left: 3%;
+  display: flex;
+}
+
+.social-links {
+  margin-left: auto;
+  width: fit-content;
+  padding-right: 4%;
+  font-size: small;
+  /* text-decoration: none; */
+}
+
+.footer {
+  display: flex;
+  padding: 0 50px;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+  color: #1977cc;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #1f2937;
+}
